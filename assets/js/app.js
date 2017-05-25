@@ -20,7 +20,7 @@ function Card(type) {
 	};
 
 	/**
-	 * 
+	 *
 	 * @field : info to be deploy. Required
 	 * @element : html element, by defaul p
 	 * @clases: classes to be added, by defaul none
@@ -112,7 +112,7 @@ function publishMedia(container) {
 }
 
 function publishEvent(container) {
-	if (container !== undefined && container !== null) {
+	if (container === undefined && container === null) {
 		return false;
 	}
 	// let date = document.getElementById('modal-event-date').value;
